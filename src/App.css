@@ -1,0 +1,63 @@
+.navconstyle{
+  color:#fff; 
+  font-size:32px;
+}
+
+
+.iframemap{
+  width:100%;
+  height:550px;
+  border: 0;
+}
+
+.cardtopimg{
+  height:12rem;
+  width: 18rem;
+}
+
+
+.cardtopbody{
+  height:auto;
+  width:18rem;
+}
+
+
+.carouselsize{
+  width:100%;
+  height:550px;
+}
+
+.partnersiframe{
+  width:100%; 
+  height:550px;
+  border:0;
+}
+
+.partnersdivsize{
+  min-height:30rem
+}
+
+
+.prodgridsize{
+  max-width: 540px; 
+  /* min-height:304px; */
+}
+
+
+.min_height_about{
+  min-height:24rem !important;
+}
+.height_people{
+  max-height:30rem;
+  height: 22rem;
+}
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.navbar_fontawesome_size{
+color:#fff; 
+font-size:32px;
+}
+.height_mobile_about{
+min-height:9rem;
+}
