@@ -25,12 +25,12 @@ function Navbar(){
                                 <Link className="nav-link text-white text_uppercase  text_nav_transf px-lg-3 under_effect  zoom" to='/about'>Company</Link>
             
                             </li>
-
+                            
                             <li className="nav-item dropdown">
                                 <a className="nav-link text-white text_uppercase text_nav_transf px-lg-3  zoom dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Products
                                 </a>
-                                <div className="dropdown-menu mt-3" aria-labelledby="navbarDropdown">
+                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
 
                                     <div className="row">
                                     <div className="col-md-4 d-flex justify-content-center">

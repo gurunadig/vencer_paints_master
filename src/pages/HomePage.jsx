@@ -173,7 +173,7 @@ function HomePage(){
             </div>
 
             <Carousel />
-
+           
             <Getintouch />
             
             <Footer/>

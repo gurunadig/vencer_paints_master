@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function Carousel(){
     return(
         <div>
-        <div className="row carouselbgblue">
+        {/* <div className="row carouselbgblue">
             <div className="col-12">
             <p className="easy-head def_ani wow animate__animated animate__fadeInRight mt-4">
                            OUR PRODUCTS
@@ -84,8 +84,13 @@ function Carousel(){
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
           
+        
+
+
+
+
     </div>
     )
 }

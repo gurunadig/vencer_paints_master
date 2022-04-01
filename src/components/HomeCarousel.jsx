@@ -17,9 +17,9 @@ function HomeCarousel(){
                         <div className="row h-100 d-flex justify-content-start align-items-center">
 
                             <div className="col-7 col-sm-4 iden offset-1">
-                                <h1 className="text-white text-center banner-head text_uppercase def_ani wow animate__animated animate__fadeInDown"> Get Inspired </h1>
+                                {/* <h1 className="text-white text-center banner-head text_uppercase def_ani wow animate__animated animate__fadeInDown"> Get Inspired </h1> */}
                                 <br />
-                                <h2 className="text-white text-center banner-head text_uppercase">Explore our Celebration Inspirations designed </h2>
+                                <h2 className="text-white text-center banner-head text_uppercase">ULTRA SHEEN PAINT THAT STEALS YOUR SPOTLIGHT ROYAL HERITAGE</h2>
                                 <div className="row">
                                 <div className="col-12 col-md-12 d-flex justify-content-center align-items-center">
                                     
@@ -40,11 +40,12 @@ function HomeCarousel(){
                             <div className="col-7 col-sm-4 iden">
                             <h1 className="text-white banner-head text_uppercase mx-5 text-center wow animate__animated animate__fadeInDown"> Get Inspired </h1>
                     <br />
-                            <h2 className="text-white text-center banner-head text_uppercase">ultra sheen paint that steals your spotlight
-                                royal heritage </h2>
+                            <h2 className="text-white text-center banner-head text_uppercase">
+                            EXPLORE OUR CELEBRATION INSPIRATIONS DESIGNES
+                            </h2>
 
                                 <div className="col-12 d-flex justify-content-center">
-                                <Link className="mt-1 mt-md-5 btn btn-lg btn-magenta baseBlock font_10" to='/contact'>Get In Touch</Link>
+                                <Link className="mt-1 mt-md-5 btn btn-lg btn-magenta baseBlock font_10" to='/supershield'>Read More</Link>
                                     
 
                                 </div>
@@ -60,7 +61,7 @@ function HomeCarousel(){
                         <div className="row h-100 d-flex justify-content-start align-items-center">
 
                             <div className="col-4 col-sm-4 iden offset-1">
-                            <h1 className="text-center banner-head text_uppercase def_ani wow animate__animated animate__fadeInDown text_black"> Get Inspired </h1>
+                            {/* <h1 className="text-center banner-head text_uppercase def_ani wow animate__animated animate__fadeInDown text_black"> Get Inspired </h1> */}
                             <br />
                             <h2 className="text-center text-white banner-head text_uppercase text_black">Give your home a new twist</h2>
 
