@@ -1342,6 +1342,77 @@ td{
 }
 
 
+/* partners section */
+.partner_back_white{
+  background-color: white;
+}
+.partner_back_white:hover{
+  background-color:#c4c4c4ad;
+
+
+}
+
+.location_a{
+  text-decoration: none;
+  color: #000;
+
+
+}
+.location_a:hover,.location_a .row:hover{
+  background-color:#e7e6e2;
+  text-decoration: none;
+  color: #000;
+}
+.highlight{
+  background-color:#c4c4c4ad;
+}
+.location_a .row{
+  border:0.1px solid grey !important;
+}
+
+
+
+.row_width{
+  min-width:900px !important;
+  /* overflow-x: scroll; */
+}
+
+.partnersiframe{
+  width:100% !important;
+  height:40vh !important;
+}
+
+.col_class{
+font-size: 14px;
+text-transform: uppercase;
+text-align:left !important;
+min-height: 30px !important;
+padding-left:12px;
+padding-right:10px;
+}
+@media only screen and (max-width: 766px) {
+
+  .col_class{
+    font-size: 12px;
+    text-transform: uppercase;
+   
+    padding-left:12px;
+    padding-right:5px;
+
+  }
+
+ 
+}
+
+
+.relat{
+  /* position: relative; */
+}
+.fixed{
+  position:relative;
+  overflow-x: scroll;
+}
+
 
 /* gtyles  */
 
@@ -1957,3 +2028,48 @@ list-style-type:upper-roman;
 .location_a .row{
   border:0.1px solid grey !important;
 }
+
+
+
+
+.main .container .glider-contain .glider .card-image {
+  margin-right: 0.5rem;
+  background: #fff;
+  border: none;
+  outline: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 2px;
+}
+.main .container .glider-contain .glider .card-image img {
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.main .container .glider-contain .glider-prev, .main .container .glider-contain .glider-next {
+  font-size: 1.5rem;
+  background: #454545;
+  color: #fff;
+  margin-top: 1rem;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  border-radius: 50%;
+}
+.main .container .glider-contain .glider-prev .fas, .main .container .glider-contain .glider-next .fas {
+  margin-left: 1rem;
+}
+@media only screen and (max-width: 768px) {
+  .main .glider-contain .glider-prev, .main .glider-contain .glider-next {
+    display: none;
+ }
+}
+@media only screen and (min-width: 769px) {
+  .main .glider-contain .dots {
+    display: none;
+ }
+}
+

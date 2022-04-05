@@ -12,7 +12,7 @@ function HomeCarousel(){
             </ol>
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="img-fluid" src="./assets/img/carousel_1.jpg" alt="First slide"/>
+                    <img className="img-fluid w-100" src="./assets/img/carousel_1.jpg" alt="First slide"/>
                     <div className="fixbgl">
                         <div className="row h-100 d-flex justify-content-start align-items-center">
 
@@ -33,7 +33,7 @@ function HomeCarousel(){
                     </div>
                 </div>
             <div className="carousel-item">
-                    <img className="img-fluid" src="./assets/img/carousel_2.jpg" alt="Second slide"/>
+                    <img className="img-fluid w-100" src="./assets/img/carousel_2.jpg" alt="Second slide"/>
                     <div className="fixbgr">
                         <div className="row h-100 d-flex justify-content-end align-items-center">
 
@@ -56,7 +56,7 @@ function HomeCarousel(){
                     </div>
                 </div>    
                 <div className="carousel-item">
-                    <img className="img-fluid" src="./assets/img/carousel_3.jpg" alt="Third slide"/>
+                    <img className="img-fluid w-100" src="./assets/img/carousel_3.jpg" alt="Third slide"/>
                     <div className="fixbgl">
                         <div className="row h-100 d-flex justify-content-start align-items-center">
 

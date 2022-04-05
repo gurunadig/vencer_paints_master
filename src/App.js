@@ -19,6 +19,11 @@ import MachineColurant from './pages/MachineColurant';
 import UniversalStainers from './pages/UniversalStainers';
 import Inspirator from './pages/Inspirator';
 
+import BlogOne from './pages/BlogOne';
+import BlogTwo from './pages/BlogTwo';
+import BlogThree from './pages/BlogThree';
+import BlogFour from './pages/BlogFour';
+
 
 import RoyalHeritagePage from './pages/interior/RoyalHeritage';
 import EasyWash from './pages/interior/EasyWash';
@@ -82,6 +87,12 @@ function App() {
           <Route exact path='/MachineColurant' element={<MachineColurant/>}></Route>
           <Route exact path='/UniversalStainers' element={<UniversalStainers/>}></Route>
           <Route exact path='/Inspirator' element={<Inspirator/>}></Route>
+
+
+          <Route exact path='/BlogOne' element={<BlogOne/>}></Route>
+          <Route exact path='/BlogTwo' element={<BlogTwo/>}></Route>
+          <Route exact path='/BlogThree' element={<BlogThree/>}></Route>
+          <Route exact path='/BlogFour' element={<BlogFour/>}></Route>
 
 
           <Route exact path='/masterstroke' element={<MasterStrokePage />}></Route>

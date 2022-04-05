@@ -3,19 +3,19 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 
-function BlogDetails(){
+function BlogThree(){
     return(
         <div>
             <Navbar/>
             
             <div class="row  container-fluid d-flex align-items-center justify-content-center m-0 p-0">
-                   <img className="img-fluid" src="./assets/img/carousel_2.jpg" alt="Interior Ezy Wash"/>
+                   <img className="img-fluid w-100" src="./assets/img/blogimg_3.jpg" alt="Interior Ezy Wash"/>
                        <div className="fixbg_new">
                            <div className="row h-100 d-flex  align-items-start">
                              <div className="col-4"></div>
                              <div className="col-12 d-flex align-items-center justify-content-center">
                         <h5 className="heading_blog text-white p-3 m-0 text_uppercase def_ani wow animate__animated animate__fadeInDown">
-                            9 Creative Blue Colour Combinations and Photos
+                        Blue Colour Combination for Home Interiors
                         </h5>
                 
                 
@@ -30,12 +30,9 @@ function BlogDetails(){
                 <div className="row px-1 px-lg-4">
                     <div className="col-12 col-md-8 px-3">
                         <h3 className="py-3">Blue Colour Combination for Home Interiors</h3>
-                    <p>Are you wondering about colours that go with grey? Despite its apparent neutrality, there’s never a dull moment with the colour grey. It’s versatile and can serve as an effective backdrop for any living space as well as take centre stage when it comes to interior décor. As such, it lies somewhere between black and white, and is a mix of both colours.</p>
-                        <p>Grey can appear dark, almost black, and also light which resembles a shadow. Each of grey’s tints and shades gives a bedroom, living room, or kitchen a different persona. As per the science of colour psychology, this seemingly mute colour has lots to say. Glamour, stylish minimalism, and professionalism are some of the qualities this colour represents.</p>
-                        <p>Modern sophistication is what will be the cornerstone of your design when you opt for grey. The beauty of using grey colour is that it blends brilliantly with other hues to create design concepts. There are several grey colour combinations that provide a rich and classNamey feel.</p>
-                        <p>The colour is definitely for urbane homes. The sleek and industrial finish it gives to any living space is representative of sanctuaries in fast-paced cities. The colour is meditative in its own way and provides a soothing escape from the humdrum of daily life. Those who choose it for their homes will find that it also lends itself perfectly for other interior accessories like houseplants, wall paintings and sculpture.</p>
-                        <p>While the colour works well for contemporary design, grey also provides a tinge of antiquity. There is a certain vintage charm to it when it is paired with dark colours. Depending on the colours you match it with, grey offers up a world of options for you to choose for the next design for your home. It works just as well for living rooms, kids’ rooms, master bedrooms, and kitchens.</p>
-                        <p>Read on to know the best grey colour combinations for your home interior decoration.</p>
+                    <p>
+                    Blue is the most natural color because it can only be seen in the sky, in the ocean and not in any fruits or vegetables. The blue look allows your body to produce soothing and soothing chemicals, and you will feel relaxed and at ease. It is a shade that most people associate and gives security and a sense of security. Blue is cold and slow compared to the heat, fire and vigilance of red. Against red, blue is the best choice for the interior walls of your room because they promote good sleep. 
+                    </p>
                     </div>
 
 
@@ -67,4 +64,4 @@ function BlogDetails(){
 }
 
 
-export default BlogDetails
+export default BlogThree
